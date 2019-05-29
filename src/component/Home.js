@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ProductList from "./ProductList";
 import ProductListContainer from "../container/ProductListContainer";
 
 class Home extends Component {

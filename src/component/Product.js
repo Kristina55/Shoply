@@ -24,8 +24,7 @@ class Product extends Component {
           src={this.props.product.image_url}
           alt="product"
         />
-        <p>{this.props.product.description}</p>
-
+        <br/>
         <button onClick={this.addToCart}>Add Item</button>
         <button onClick={this.removeFromCart}>Remove Item</button>
       </div>
